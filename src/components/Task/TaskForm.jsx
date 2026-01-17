@@ -15,7 +15,7 @@ function TaskForm() {
     }
     return (
         <div className="max-w-md mx-auto">
-            <form onSubmit={handleSubmit} className="bg-slate-800 text-white p-10 mb-4 rounded-md">
+            <form onSubmit={handleSubmit} className="bg-slate-800 p-10 mb-4 rounded-md">
                 <h1 className="text-2xl font-bold text-white mb-3">Add Task</h1>
                 <input className="bg-slate-300 p-3 w-full mb-2" type="text" value={title} onChange={(e) => setTitle(e.target.value)} autoFocus />
                 <input className="bg-slate-300 p-3 w-full mb-2" type="text" value={description} onChange={(e) => setDescription(e.target.value)} />
